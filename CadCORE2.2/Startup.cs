@@ -36,6 +36,7 @@ namespace CadCORE2._2
 
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+			//Código abaixo feito para configurar o banco SQL Server com a API Web, que vem do arquivo appsettings.json.
 			services.AddDbContext<UserContext>(options =>
 			options.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
 		}

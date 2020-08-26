@@ -30,10 +30,10 @@ C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.Views.pdb
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.dll
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.pdb
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.csproj.CopyComplete
-C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.csproj.CoreCompileInputs.cache
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\Razor\Views\User\Create.cshtml.g.cs
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\Razor\Views\User\Delete.cshtml.g.cs
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\Razor\Views\User\Details.cshtml.g.cs
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\Razor\Views\User\Edit.cshtml.g.cs
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\Razor\Views\User\Index.cshtml.g.cs
 C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.csprojAssemblyReference.cache
+C:\Csharp\CadCORE2.2\CadCORE2.2\obj\Debug\netcoreapp2.2\CadCORE2.2.csproj.CoreCompileInputs.cache

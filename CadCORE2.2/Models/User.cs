@@ -31,6 +31,8 @@ namespace CadCORE2._2.Models
 
 		//Salário
 		[Column(TypeName = "varchar(250)")]
+		//Regex para validar campo com Números Int. e Decimais
+		[RegularExpression(@"^-?[0-9][0-9,\.]+$", ErrorMessage = "Por favor, digite apenas números.")]
 		[Required(ErrorMessage = "Por favor preencha o Campo com o seu Salário.")]
 		[DisplayName("Salário")]
 		public string Salario { get; set; }

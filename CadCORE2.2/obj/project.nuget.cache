@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Zqb+Cj0puKNYQpDBYGdizhHYf6yOxnlAbHk0Ah2upIOoWcXlkuaVUhQoUEkwSNnMcVp2+J4oxUSF+Sz2ueIMwg==",
+  "dgSpecHash": "bHJe7hFA7+CbQTkWk6HQRsI27xKgJduDcLWSE7S6xBfEOtcarkk0O3H9f+qnXwpVu7gDlYe2O4GTCoRnkMPCZw==",
   "success": true,
   "projectFilePath": "C:\\Csharp\\CadCORE2.2\\CadCORE2.2\\CadCORE2.2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pedro\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
     "C:\\Users\\Pedro\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

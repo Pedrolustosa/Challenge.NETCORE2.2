@@ -55,6 +55,9 @@ namespace CadCORE2._2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UserID,NomeCompleto,Nascimento,Salario")] User user)
         {
+            //Função para Validação de Data com pessoas entre 18 e 60
+            ValidarAno(user.Nascimento);
+
             if (ModelState.IsValid)
             {
                 _context.Add(user);
@@ -87,6 +90,9 @@ namespace CadCORE2._2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("UserID,NomeCompleto,Nascimento,Data")] User user)
         {
+            //Função para Validação de Data com pessoas entre 18 e 60
+            ValidarAno(user.Nascimento);
+
             if (id != user.UserID)
             {
                 return NotFound();
@@ -147,6 +153,21 @@ namespace CadCORE2._2.Controllers
         private bool UserExists(int id)
         {
             return _context.Users.Any(e => e.UserID == id);
+        }
+
+        //Função na qual pega o ano atual e o ano do campo NASCIMENTO e subtrai. E, assim validando o cadastro se for maior que 18 e menos que 60.
+        private void ValidarAno(string ano)
+		{
+            //Função para Validação de Data com pessoas entre 18 e 60
+            var anoAtual = DateTime.Now.Year;
+            DateTime dt = DateTime.Parse(ano);
+
+            var anoNascimento = dt.Year;
+
+            if (anoAtual - anoNascimento < 18 || anoAtual - anoNascimento > 60)
+            {
+                throw new Exception(" Não pode ser uma pessoa com menos de 18 ou maior de 60 ");
+            }
         }
     }
 }
